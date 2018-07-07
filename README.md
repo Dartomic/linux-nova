@@ -161,9 +161,9 @@ Documentation/filesystems/nova.txt provides more detailed instructions on buildi
 
 ## Hacking and Contributing
 
-The NOVA source code is almost completely contains in the `fs/nova` directory.
-The execptions are some small changes in the kernel's memory management system
-to support checkpointing.
+The NOVA source code is almost completely contained within the `fs/nova` directory, 
+except for some minor changes to the kernel's memory management system.
+The changes made to the memory management system, are to support checkpointing.
 
 `Documentation/filesystems/nova.txt` describes the internals of Nova in more detail.
 
